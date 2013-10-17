@@ -2,8 +2,9 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 
-gem 'sqlite3'
+gem 'mysql2'
 gem "chartkick", "~> 1.2.0"
+gem 'groupdate'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
