@@ -16,3 +16,7 @@ MINUTES = (1..59).to_a
 (1..1000).each do |index|
   Sale.create total: TOTALS.sample, created_at: Time.parse("#{YEAR}/#{MONTHS.sample}/#{DAYS.sample} #{HOURS.sample}:#{MINUTES.sample}")
 end
+
+(1..1000).each do |index|
+  Expense.create amount: TOTALS.sample, created_at: Time.parse("#{YEAR}/#{MONTHS.sample}/#{DAYS.sample} #{HOURS.sample}:#{MINUTES.sample}")
+end
